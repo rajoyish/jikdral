@@ -11,10 +11,21 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+                sans: ["Hind", ...defaultTheme.fontFamily.sans],
+                hind: ["Hind", "sans-serif"],
+                bo: ["Jomolhari", "serif"],
+            },
+
+            colors: {
+                primary: "#790B18",
+                accent: "#BFAA5B",
+                "prime-dark": "#332313",
             },
         },
     },
 
-    plugins: [require('@tailwindcss/forms')],
+    plugins: [
+        require('@tailwindcss/forms'),
+        require("@tailwindcss/typography")
+    ],
 };
