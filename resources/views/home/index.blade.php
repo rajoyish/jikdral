@@ -4,7 +4,7 @@
             About Jikdral Thinley Rinpoche Organization
         </h1>
         <figure>
-            <img src="{{ asset('jikdral-rinpoche-banner.png') }}" class="rounded"
+            <img src="{{ asset('images/jikdral-rinpoche-banner.png') }}" class="rounded"
                 alt="His Holiness Chatral Rinpoche, Sangye Dorje and Jikdral Thinley Rinpoche from the left" />
             <figcaption>
                 His Holiness Chatral Rinpoche, Sangye Dorje and Jikdral Thinley
