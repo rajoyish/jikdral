@@ -18,6 +18,15 @@ Route::get('/', function () {
     return view('home.index');
 });
 
+// STATIC HOME PAGES
+Route::get('/objectives', function () {
+    return view('home.objectives');
+});
+
+Route::get('/projects', function () {
+    return view('home.projects');
+});
+
 Route::resource('/home', HomeController::class);
 
 
