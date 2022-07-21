@@ -1,7 +1,7 @@
 <x-app-layout>
     <article class="prose prose-slate mx-auto lg:prose-lg">
         <h1 class="text-primary" style="line-height: 1.4">
-            Submitted Projects
+            Our Projects and Plans
         </h1>
         <p>
             We have compiled a comprehensive list of essential project proposals, but we will only be able to complete a

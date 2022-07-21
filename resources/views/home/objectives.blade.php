@@ -1,7 +1,7 @@
 <x-app-layout>
     <article class="prose prose-slate mx-auto lg:prose-lg">
         <h1 class="text-primary" style="line-height: 1.4">
-            Objectives
+            Our Objectives
         </h1>
         <p>
             Chatral Rinpoche was a Tibetan Rinpoche, while Jikdral Thinley Rinpoche was a Sherpa. As Sherpa is a small
