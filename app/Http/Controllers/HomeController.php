@@ -3,9 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Artesaos\SEOTools\Facades\SEOMeta;
 
 class HomeController extends Controller
 {
+
+
+
     /**
      * Display a listing of the resource.
      *
@@ -13,7 +17,20 @@ class HomeController extends Controller
      */
     public function index()
     {
+        SEOMeta::setTitle('Home');
         return view('home.index');
+    }
+
+    public function objectives()
+    {
+        SEOMeta::setTitle('Our Objectives');
+        return view('home.objectives');
+    }
+
+    public function projects()
+    {
+        SEOMeta::setTitle('Our Projects and Plans');
+        return view('home.projects');
     }
 
     /**

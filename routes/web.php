@@ -14,19 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home.index');
-});
 
 // STATIC HOME PAGES
-Route::get('/objectives', function () {
-    return view('home.objectives');
-});
+Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/objectives', [HomeController::class, 'objectives'])->name('objectives');
+Route::get('/projects', [HomeController::class, 'projects'])->name('projects');
 
-Route::get('/projects', function () {
-    return view('home.projects');
-});
-
+// HOME RESOURCE
 Route::resource('/home', HomeController::class);
 
 
