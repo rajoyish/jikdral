@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     {!! SEOMeta::generate() !!}
-    {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
-    @vite(['resources/js/app.js'])
+    <link rel="icon" type="image/svg+xml" href="{{ asset('images/Jikdral-rinpoche-color-logo-01.svg') }}">
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
 <body>
