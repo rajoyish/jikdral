@@ -18,7 +18,7 @@
     @include('layouts.home-nav')
 
     {{-- CONTENT --}}
-    <section class="p-10">
+    <section>
         {{ $slot }}
     </section>
 </body>

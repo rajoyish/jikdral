@@ -1,5 +1,5 @@
 <x-app-layout>
-    <article class="prose prose-slate mx-auto lg:prose-lg">
+    <article class="prose prose-slate mx-auto lg:prose-lg px-8 py-20">
         <h1 class="text-primary" style="line-height: 1.4">
             Our Projects and Plans
         </h1>

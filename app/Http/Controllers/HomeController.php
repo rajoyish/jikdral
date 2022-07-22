@@ -21,6 +21,12 @@ class HomeController extends Controller
         return view('home.index');
     }
 
+    public function committee()
+    {
+        SEOMeta::setTitle('Our Committee');
+        return view('home.committee');
+    }
+
     public function objectives()
     {
         SEOMeta::setTitle('Our Objectives');
