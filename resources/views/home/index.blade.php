@@ -1,4 +1,18 @@
 <x-app-layout>
+    {{-- Slider --}}
+    <div class="h-screen w-full overflow-hidden flex flex-nowrap text-center" id="slider">
+        <div class="flex-none w-full flex flex-col items-center justify-center">
+            <img src="{{ asset('images/slider-1.jpg') }}" alt="">
+        </div>
+        <div class="flex-none w-full flex flex-col items-center justify-center">
+            <img src="{{ asset('images/slider-2.jpg') }}" alt="">
+        </div>
+        <div class="flex-none w-full flex flex-col items-center justify-center">
+            <img src="{{ asset('images/slider-1.jpg') }}" alt="">
+        </div>
+    </div>
+
+    {{-- About us --}}
     <article class="prose prose-slate mx-auto lg:prose-lg px-8 py-20">
         <h1 class="text-primary" style="line-height: 1.4">
             About Jikdral Thinley Rinpoche Organization
