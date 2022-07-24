@@ -1,17 +1,20 @@
 <x-app-layout>
     {{-- Slider --}}
-    <div class="w-full overflow-hidden flex flex-nowrap text-center items-start" id="slider">
+    <div class="w-full overflow-hidden flex flex-nowrap text-center items-start text-prime-dark" id="slider">
         <div class="flex-none w-full flex flex-col items-center justify-center">
-            <img src="{{ asset('images/slider-1.jpg') }}" alt="">
-            <p class="text-xl mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, quos.</p>
+            <img src="{{ asset('images/slider-1.jpg') }}" class="object-cover w-full h-full">
+            <p class="text-3xl mt-8 font-bo">༄༅།
+                །ཨོཾ་ཨཱ༔ཧཱུྃ་བཛྲ་གུ་རུ་པདྨ་མིདྡྷི་ཧཱུྃ༔མཱ་ཧཱ་གུརུ་སརྦ་སིདྡྷཱ་ཧཱུྃ༔</p>
         </div>
         <div class="flex-none w-full flex flex-col items-center justify-center">
-            <img src="{{ asset('images/slider-2.jpg') }}" alt="">
-            <p class="text-xl mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, quos.</p>
+            <img src="{{ asset('images/slider-2.jpg') }}" class="object-cover w-full h-full">
+            <p class="text-3xl mt-8">Secretory of Dodrupchen Rinpoche addressing the official letter from Jikdral Thinley
+                Rinpoche</p>
         </div>
         <div class="flex-none w-full flex flex-col items-center justify-center">
-            <img src="{{ asset('images/slider-1.jpg') }}" alt="">
-            <p class="text-xl mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, quos.</p>
+            <img src="{{ asset('images/slider-1.jpg') }}" class="object-cover w-full h-full">
+            <p class="text-3xl mt-8 font-bo">༄༅།
+                །ཨོཾ་ཨཱ༔ཧཱུྃ་བཛྲ་གུ་རུ་པདྨ་མིདྡྷི་ཧཱུྃ༔མཱ་ཧཱ་གུརུ་སརྦ་སིདྡྷཱ་ཧཱུྃ༔</p>
         </div>
     </div>
 
