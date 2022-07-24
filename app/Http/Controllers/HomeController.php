@@ -15,6 +15,11 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function about()
+    {
+        SEOMeta::setTitle('About us');
+        return view('home.about');
+    }
     public function index()
     {
         SEOMeta::setTitle('Home');
@@ -43,6 +48,12 @@ class HomeController extends Controller
     {
         SEOMeta::setTitle('Gallery');
         return view('home.gallery');
+    }
+
+    public function donation()
+    {
+        SEOMeta::setTitle('Donation');
+        return view('home.donation');
     }
 
 
