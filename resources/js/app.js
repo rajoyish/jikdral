@@ -13,12 +13,18 @@ document.addEventListener('DOMContentLoaded', () => {
         const left = slider.clientWidth;
 
         if (max === slider.scrollLeft) {
-            slider.scrollTo({left: 0, behavior: 'smooth'})
+            slider.scrollTo({
+                left: 0,
+                behavior: 'smooth'
+            })
         } else {
-            slider.scrollBy({left, behavior: 'smooth'})
+            slider.scrollBy({
+                left,
+                behavior: 'smooth'
+            })
         }
 
-        setTimeout(moveSlide, 2000)
-    }, 2000)
+        setTimeout(moveSlide, 5000)
+    }, 5000)
 
 })
