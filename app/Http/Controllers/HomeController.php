@@ -39,6 +39,14 @@ class HomeController extends Controller
         return view('home.projects');
     }
 
+    public function gallery()
+    {
+        SEOMeta::setTitle('Gallery');
+        return view('home.gallery');
+    }
+
+
+
     /**
      * Show the form for creating a new resource.
      *

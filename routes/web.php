@@ -20,6 +20,7 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/committee', [HomeController::class, 'committee'])->name('committee');
 Route::get('/objectives', [HomeController::class, 'objectives'])->name('objectives');
 Route::get('/projects', [HomeController::class, 'projects'])->name('projects');
+Route::get('/gallery', [HomeController::class, 'gallery'])->name('gallery');
 
 // HOME RESOURCE
 Route::resource('/home', HomeController::class);
