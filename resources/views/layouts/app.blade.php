@@ -21,6 +21,9 @@
     <section>
         {{ $slot }}
     </section>
+
+    {{-- FOOTER --}}
+    @include('layouts.home-footer')
 </body>
 
 </html>
