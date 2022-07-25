@@ -20,7 +20,7 @@
                 </div>
                 <div class="mb-8">
                     <img class="w-full object-top object-cover aspect-square mb-2"
-                        src="{{ asset('images/gallery-img/3.jpg') }}" />
+                        src="{{ asset('images/gallery-img/3a.jpg') }}" />
                     <p>Secretory of Dodrupchen Rinpoche addressing the official letter from Jikdral Thinley Rinpoche</p>
                 </div>
                 <div class="mb-8">
@@ -35,7 +35,7 @@
                 </div>
                 <div class="mb-8">
                     <img class="w-full object-top object-cover aspect-video mb-2"
-                        src="{{ asset('images/gallery-img/6.jpg') }}" />
+                        src="{{ asset('images/gallery-img/6a.jpg') }}" />
                     <p>Dodrupchen Rinpoche performing Tapche (hair cutting ceremony).</p>
                 </div>
                 <div class="mb-8">
