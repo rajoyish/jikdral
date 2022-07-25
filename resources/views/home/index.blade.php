@@ -9,7 +9,7 @@
         </div>
         <div class="flex-none w-full flex flex-col items-center justify-center">
             <img src="{{ asset('images/slider-2.jpg') }}" class="object-cover w-full h-full">
-            <p class="text-lg mt-4 md:text-2xl">
+            <p class="text-md mt-4 md:text-2xl px-2">
                 Secretory of Dodrupchen Rinpoche addressing the official letter from Jikdral Thinley Rinpoche
             </p>
         </div>
