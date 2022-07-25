@@ -77,7 +77,7 @@
                 </div>
             </div>
             <div class="relative h-64 w-full sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:h-full lg:w-1/2">
-                <img class="absolute inset-0 h-full w-full object-cover" src="{{ asset('images/gallery-img/5.jpg') }}"
+                <img class="absolute inset-0 h-full w-full object-cover" src="{{ asset('images/gallery-img/5a.jpg') }}"
                     alt="" />
             </div>
         </main>
