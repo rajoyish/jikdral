@@ -30,7 +30,7 @@
                 </div>
                 <div class="mb-8">
                     <img class="w-full object-top object-cover aspect-video mb-2"
-                        src="{{ asset('images/gallery-img/5.jpg') }}" />
+                        src="{{ asset('images/gallery-img/5a.jpg') }}" />
                     <p>Secretory of Dodrupchen Rinpoche reading out letter from Jikdral Thinley Rinpoche.</p>
                 </div>
                 <div class="mb-8">
