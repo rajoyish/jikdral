@@ -11,7 +11,7 @@
                 class="flex flex-col gap-6 overflow-hidden text-center md:grid md:grid-cols-4 md:grid-rows-4 lg:grid-cols-6 lg:grid-rows-2">
 
                 <div class="col-span-2 row-start-1 row-end-3 min-h-full min-w-full">
-                    <img src="{{ asset('images/1. Ngawang Samden Sherpa.jpg') }}" alt=""
+                    <img src="{{ asset('images/1. Ngawang Samden Sherpa - edited.jpg') }}" alt=""
                         class="mx-auto rounded-xl object-cover" />
                     <div>
                         <h4 class="mt-4 text-xl font-bold">Mr. Ngawang Samden Sherpa</h4>
@@ -57,7 +57,7 @@
                     </div>
                 </div>
                 <div class="h-auto min-h-full min-w-full">
-                    <img src="{{ asset('images/5. Bhupal Tamang.jpg') }}" alt=""
+                    <img src="{{ asset('images/5. Bhupal Tamang-edited.jpg') }}" alt=""
                         class="mx-auto rounded-xl object-cover" />
                     <div>
                         <h4 class="mt-4 text-xl font-bold">Mr. Bhupal Tamang</h4>
@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div class="h-auto min-h-full min-w-full">
-                    <img src="{{ asset('images/6. Lhakpa Sherpa Tamang.jpg') }}" alt=""
+                    <img src="{{ asset('images/6. Lhakpa Sherpa Tamang-edited.jpg') }}" alt=""
                         class="mx-auto rounded-xl object-cover" />
                     <div>
                         <h4 class="mt-4 text-xl font-bold">Mrs. Lhakpa Sherpa Tamang</h4>
@@ -81,7 +81,7 @@
                     </div>
                 </div>
                 <div class="h-auto min-h-full min-w-full">
-                    <img src="{{ asset('images/7. Dawa Yangdu Sherpa.jpg') }}" alt=""
+                    <img src="{{ asset('images/7. Dawa Yangdu Sherpa - edited.jpg') }}" alt=""
                         class="mx-auto rounded-xl object-cover" />
                     <div>
                         <h4 class="mt-4 text-xl font-bold">Mrs. Dawa Yangdu Sherpa</h4>

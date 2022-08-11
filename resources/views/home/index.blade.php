@@ -4,7 +4,7 @@
         <div class="flex-none w-full flex flex-col items-center justify-center">
             <img src="{{ asset('images/slider-1.jpg') }}" class="object-cover w-full h-full">
             <p class="text-lg mt-4 md:text-2xl font-bo">
-                ༄༅། །ཨོཾ་ཨཱ༔ཧཱུྃ་བཛྲ་གུ་རུ་པདྨ་མིདྡྷི་ཧཱུྃ༔མཱ་ཧཱ་གུརུ་སརྦ་སིདྡྷཱ་ཧཱུྃ༔
+                ༄༅། །ཨོཾ་ཨཱ༔ཧཱུྃ་བཛྲ་གུ་རུ་པདྨ་སིདྡྷི་ཧཱུྃ༔མཱ་ཧཱ་གུརུ་སརྦ་སིདྡྷཱི་ཧཱུྃ༔
             </p>
         </div>
         <div class="flex-none w-full flex flex-col items-center justify-center">
@@ -16,7 +16,7 @@
         <div class="flex-none w-full flex flex-col items-center justify-center">
             <img src="{{ asset('images/slider-1.jpg') }}" class="object-cover w-full h-full">
             <p class="text-lg mt-4 md:text-2xl font-bo">
-                ༄༅། །ཨོཾ་ཨཱ༔ཧཱུྃ་བཛྲ་གུ་རུ་པདྨ་མིདྡྷི་ཧཱུྃ༔མཱ་ཧཱ་གུརུ་སརྦ་སིདྡྷཱ་ཧཱུྃ༔
+                ༄༅། །ཨོཾ་ཨཱ༔ཧཱུྃ་བཛྲ་གུ་རུ་པདྨ་སིདྡྷི་ཧཱུྃ༔མཱ་ཧཱ་གུརུ་སརྦ་སིདྡྷཱི་ཧཱུྃ༔
             </p>
         </div>
     </div>
