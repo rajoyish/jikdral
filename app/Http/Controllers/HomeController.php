@@ -50,6 +50,12 @@ class HomeController extends Controller
         return view('home.gallery-of-jikdral-rinpoche');
     }
 
+    public function thechuNgyarngaPuja()
+    {
+        SEOMeta::setTitle('Thechu and Ngyarnga Puja');
+        return view('home.thechu-and-ngyarnga-puja');
+    }
+
     public function letterOfRinpoche()
     {
         SEOMeta::setTitle('Letter of Rinpoche');

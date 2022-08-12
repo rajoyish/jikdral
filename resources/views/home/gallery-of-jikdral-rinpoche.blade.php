@@ -53,6 +53,11 @@
                         src="{{ asset('images/gallery-img/9.jpg') }}" />
                     <p>Jikdral Thinley Rinpoche with Secretory of Dodrupchen Rinpoche</p>
                 </div>
+                <div class="mb-8">
+                    <img class="w-full object-top object-cover aspect-square mb-2"
+                        src="{{ asset('images/gallery-img/letter.jpg') }}" />
+                    <p>Holding the letter to the Rinpoches</p>
+                </div>
             </div>
         </div>
     </section>

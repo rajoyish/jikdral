@@ -1,7 +1,7 @@
 @php
 $segment1 = Request::segment(1);
 $aboutUs = ['objectives', 'projects', 'letter-of-rinpoche'];
-$gallery = ['gallery-of-jikdral-rinpoche'];
+$gallery = ['gallery-of-jikdral-rinpoche', 'thechu-and-ngyarnga-puja'];
 @endphp
 <a href="{{ route('home') }}"
     class="block py-5 px-3 transition-all duration-300 hover:bg-prime-dark hover:text-accent {{ Route::currentRouteNamed('home') ? 'bg-gradient-to-b from-primary to-accent' : '' }}">Home</a>
@@ -61,9 +61,9 @@ $gallery = ['gallery-of-jikdral-rinpoche'];
             class="block py-5 transition-all pl-6 duration-300 bg-primary hover:bg-prime-dark hover:text-accent {{ Route::currentRouteNamed('gallery-of-jikdral-rinpoche') ? 'bg-gradient-to-b from-primary to-accent' : '' }}">
             Gallery of Jikdral Thinley Rinpoche
         </a>
-        <a href="{{ route('projects') }}"
-            class="block py-5 transition-all pl-6 duration-300 bg-primary hover:bg-prime-dark hover:text-accent {{ Route::currentRouteNamed('projects') ? 'bg-gradient-to-b from-primary to-accent' : '' }}">
-            Gallery of Puja
+        <a href="{{ route('thechu-and-ngyarnga-puja') }}"
+            class="block py-5 transition-all pl-6 duration-300 bg-primary hover:bg-prime-dark hover:text-accent {{ Route::currentRouteNamed('thechu-and-ngyarnga-puja') ? 'bg-gradient-to-b from-primary to-accent' : '' }}">
+            Gallery of Thechu and Ngyarnga Puja
         </a>
     </nav>
 </span>
