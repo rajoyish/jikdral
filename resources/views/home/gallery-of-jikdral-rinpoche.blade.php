@@ -3,7 +3,7 @@
         <div class="mx-auto">
             <div class="mb-16 text-center">
                 <h2 class="text-center text-5xl font-bold  text-primary">
-                    Gallery
+                    Gallery of Jikdral Thinley Rinpoche
                 </h2>
             </div>
 

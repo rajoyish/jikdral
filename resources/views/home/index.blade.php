@@ -69,7 +69,7 @@
                                 Discover More </a>
                         </div>
                         <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-                            <a href="{{ route('gallery') }}"
+                            <a href="{{ route('gallery-of-jikdral-rinpoche') }}"
                                 class="text-primary bg-accent hover:border-primary flex w-full items-center justify-center rounded-md border border-transparent px-8 py-3 text-base font-medium transition-all duration-300 hover:border-2 hover:bg-gray-50 md:py-4 md:px-10 md:text-lg">
                                 View Gallery </a>
                         </div>

@@ -9,7 +9,8 @@ Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::get('/committee', [HomeController::class, 'committee'])->name('committee');
 Route::get('/objectives', [HomeController::class, 'objectives'])->name('objectives');
 Route::get('/projects', [HomeController::class, 'projects'])->name('projects');
-Route::get('/gallery', [HomeController::class, 'gallery'])->name('gallery');
+Route::get('/gallery-of-jikdral-rinpoche', [HomeController::class, 'galleryRinpoche'])->name('gallery-of-jikdral-rinpoche');
+Route::get('/letter-of-rinpoche', [HomeController::class, 'letterOfRinpoche'])->name('letter-of-rinpoche');
 Route::get('/donation', [HomeController::class, 'donation'])->name('donation');
 
 // HOME RESOURCE

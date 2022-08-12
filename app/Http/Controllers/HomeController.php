@@ -44,10 +44,16 @@ class HomeController extends Controller
         return view('home.projects');
     }
 
-    public function gallery()
+    public function galleryRinpoche()
     {
-        SEOMeta::setTitle('Gallery');
-        return view('home.gallery');
+        SEOMeta::setTitle('Gallery of Jikdral Thinley Rinpoche');
+        return view('home.gallery-of-jikdral-rinpoche');
+    }
+
+    public function letterOfRinpoche()
+    {
+        SEOMeta::setTitle('Letter of Rinpoche');
+        return view('home.letter-of-rinpoche');
     }
 
     public function donation()
