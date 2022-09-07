@@ -56,6 +56,12 @@ class HomeController extends Controller
         return view('home.thechu-and-ngyarnga-puja');
     }
 
+    public function education()
+    {
+        SEOMeta::setTitle('Stationery distribution and education support in remote school of Nepal');
+        return view('home.education-support');
+    }
+
     public function letterOfRinpoche()
     {
         SEOMeta::setTitle('Letter of Rinpoche');

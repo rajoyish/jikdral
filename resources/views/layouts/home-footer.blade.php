@@ -97,7 +97,8 @@
                         <a href="{{ route('home') }}" class="hover:text-primary">Register</a>
                     </li>
                     <li>
-                        <a href="{{ route('about') }}" class="hover:text-primary">Facebook</a>
+                        <a href="https://www.facebook.com/Jikdral-Thinley-Rimpoche-101109636037127/"
+                            class="hover:text-primary">Facebook</a>
                     </li>
                     <li>
                         <a href="{{ route('committee') }}" class="hover:text-primary">Login</a>

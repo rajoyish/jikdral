@@ -46,12 +46,12 @@
                 <div class="mb-8">
                     <img class="w-full object-top object-cover aspect-video mb-2"
                         src="{{ asset('images/gallery-img/8.jpg') }}" />
-                    <p>Group photo with Secretory of Dodrupchen Rinpoche</p>
+                    <p>Group photo with Jikdral Thinley Rinpoche</p>
                 </div>
                 <div class="mb-8">
                     <img class="w-full object-top object-cover aspect-square mb-2"
                         src="{{ asset('images/gallery-img/9.jpg') }}" />
-                    <p>Jikdral Thinley Rinpoche with Secretory of Dodrupchen Rinpoche</p>
+                    <p>Jikdral Thinley Rinpoche with Kalzang</p>
                 </div>
                 <div class="mb-8">
                     <img class="w-full object-top object-cover aspect-square mb-2"
